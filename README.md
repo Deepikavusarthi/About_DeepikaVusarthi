@@ -11,7 +11,8 @@ through ongoing learning and professional development.
 
 <details>
 <summary>Signature Strengths</summary>
-
+  
+| No | Signature_Strengths |
 |-----:|-----------|
 |     1| Web Application Development|
 |     2| Database Design    |
