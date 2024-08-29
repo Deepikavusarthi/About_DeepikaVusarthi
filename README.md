@@ -10,7 +10,7 @@ to writing clean, maintainable code. Committed to staying abreast with emerging 
 through ongoing learning and professional development.
 
 
-| Rank | Languages |
+|  | Signature Strengths |
 |-----:|-----------|
 |     1| Web Application Development|
 |     2| Database Design    |
