@@ -9,6 +9,18 @@ teams to deliver high-quality solutions on time and within budget. Known for ana
 to writing clean, maintainable code. Committed to staying abreast with emerging technologies and continuously improving skills
 through ongoing learning and professional development.
 
+
+## Goals:
+
+---To leverage my strong foundation in full-stack software development and data analytics, aiming to contribute to innovative and scalable solutions in a dynamic and collaborative environment. My objective is to continuously evolve as a proficient software engineer, staying at the forefront of emerging technologies, while delivering high-impact solutions that drive business success.
+
+## Objectives:
+1.Expand Technical Expertise
+2.Enhance Project Management Skills
+3.Contribute to Business Growth
+4.Pursue Continuous Learning
+5.Foster Collaboration and Leadership
+    
 <details>
 <summary>Signature Strengths</summary>
   
@@ -25,7 +37,7 @@ through ongoing learning and professional development.
 
 
 <details>
-<summary>My Projects</summary>
+<summary>Some of My Notable works</summary>
 
 | No | Projects |
 |-----:|-----------|
