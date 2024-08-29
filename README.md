@@ -9,8 +9,9 @@ teams to deliver high-quality solutions on time and within budget. Known for ana
 to writing clean, maintainable code. Committed to staying abreast with emerging technologies and continuously improving skills
 through ongoing learning and professional development.
 
+<details>
+<summary>Signature Strengths</summary>
 
-|  | Signature Strengths |
 |-----:|-----------|
 |     1| Web Application Development|
 |     2| Database Design    |
@@ -18,6 +19,9 @@ through ongoing learning and professional development.
 |     4| Agile Methodoligies|
 |     5| Continuous Integration |
 |     6| Cloud Computing|
+
+</details>
+
 
 <details>
 <summary>My Projects</summary>
