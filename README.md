@@ -19,3 +19,13 @@ through ongoing learning and professional development.
 |     5| Continuous Integration |
 |     6| Cloud Computing|
 
+<details>
+<summary>My Projects</summary>
+
+| No | Projects |
+|-----:|-----------|
+|     1| Tic Tac Toe|
+|     2| NinerSports Web Application    |
+|     3| Clockin-ClockOut Application       |
+
+</details>
