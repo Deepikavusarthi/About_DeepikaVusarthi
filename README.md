@@ -11,7 +11,6 @@ through ongoing learning and professional development.
 
 <details>
   <Heading>Signature Strengths</Heading>
-|-----:|-----------|
 |     1| Web Application Development|
 |     2| Database Design    |
 |     3| Data Analyst and Visualizations |
