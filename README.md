@@ -1,4 +1,4 @@
-## Hi Everyone Welcome to My Portfolio 👋
+## Hi there, I'm [Deepika Vusarthi](https://www.linkedin.com/in/dvusarth/)! <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif" width=35 height=35>
 
 
 ## About Me:
