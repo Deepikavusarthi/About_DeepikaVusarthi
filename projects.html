@@ -18,30 +18,63 @@
     <h1>Projects</h1>
 </header>
 
-<section>
-    <h2>Networked Systems Lab</h2>
-    <p>Implemented HTTP/1.1 server, packet capture & analysis, benchmarking harness using wrk/ab and strace/perf. (Python, Linux)</p>
-</section>
+<main class="projects-container">
 
-<section>
-    <h2>Employee Access & Audit System</h2>
-    <p>Role-based auth, audit trails, optimized database indexing, transactional integrity. (C#/.NET Core, SQL Server)</p>
-</section>
+    <!-- Networked Systems Lab -->
+    <section class="project">
+        <h2>Networked Systems Lab <span class="date">(Aug 2024 – Dec 2024)</span></h2>
+        <p><strong>Technologies:</strong> Python, Linux</p>
+        <ul>
+            <li>Implemented a high-performance HTTP/1.1 server using asyncio and an epoll-backed event loop, supporting keep-alive connections and static file caching for concurrent requests.</li>
+            <li>Developed a packet capture and analysis tool using scapy/tcpdump to evaluate throughput and latency, tuning kernel socket buffers and Nagle’s algorithm for optimized performance.</li>
+            <li>Built a benchmarking and profiling harness using wrk/ab and traced code paths with strace/perf, identifying regressions and optimizing syscalls and context switches.</li>
+        </ul>
+    </section>
 
-<section>
-    <h2>Travel Nano</h2>
-    <p>Full-stack Flask app with authentication, content posting, commenting, and currency conversion micro-feature. (Flask, JS, SQL, Linux)</p>
-</section>
+    <!-- Employee Access & Audit System -->
+    <section class="project">
+        <h2>Employee Access & Audit System <span class="date">(Jan 2023 – May 2023)</span></h2>
+        <p><strong>Technologies:</strong> C#/.NET Core, SQL Server</p>
+        <ul>
+            <li>Implemented role-based authentication and authorization with account lockout, audit trails, and centralized parameterized queries to prevent SQL injection.</li>
+            <li>Optimized database indexing and query plans, reducing report query times by ~25%; added transactional integrity and enhanced observability with structured logs and error categories for faster issue triage.</li>
+        </ul>
+    </section>
 
-<section>
-    <h2>E-Commerce Brazil Retail Store</h2>
-    <p>Analyzed 100k orders in MySQL; recommended targeted discounts, optimized logistics & inventory. (MySQL)</p>
-</section>
+    <!-- Travel Nano -->
+    <section class="project">
+        <h2>Travel Nano - Flask Full-Stack Platform <span class="date">(Jan 2024 – May 2024)</span></h2>
+        <p><strong>Technologies:</strong> Flask, JS, SQL, Linux</p>
+        <ul>
+            <li>Developed a modular Flask application with authentication, content posting, commenting, and a currency conversion micro-feature using external APIs.</li>
+            <li>Designed and normalized relational database schema, adding indexes and query hints to reduce median read latency by ~20%.</li>
+            <li>Implemented input validation, rate limiting, and defence-in-depth measures including CSRF protection and secure headers.</li>
+            <li>Built features for user interaction, authentication, and data sharing, coordinating with stakeholders to streamline information flow and enhance user experience.</li>
+        </ul>
+    </section>
 
-<section>
-    <h2>Big OTT Platform</h2>
-    <p>Data exploration & visualization using Python (pandas, matplotlib, seaborn); insights on content distribution & recommendations.</p>
-</section>
+    <!-- E-Commerce Brazil Retail Store -->
+    <section class="project">
+        <h2>E-Commerce - Brazil Retail Store Business Case <span class="date">(Apr 2025 – Apr 2025)</span></h2>
+        <p><strong>Technologies:</strong> MySQL</p>
+        <ul>
+            <li>Analyzed a dataset of 100,000 e-commerce orders using MySQL, examining order status, pricing, and customer demographics to optimize operations and understand customer behavior.</li>
+            <li>Identified a 137% increase in order costs (2017–2018) and peak sales trends; recommended targeted discounts, improved logistics, and efficient inventory management.</li>
+        </ul>
+    </section>
+
+    <!-- Big OTT Platform -->
+    <section class="project">
+        <h2>Big OTT Platform - Data Exploration and Visualization <span class="date">(May 2025 – Jun 2025)</span></h2>
+        <p><strong>Technologies:</strong> Python (pandas, matplotlib, seaborn)</p>
+        <ul>
+            <li>Explored OTT catalog of 8,807 titles, revealing that 50% of content comes from the U.S., India, and U.K., helping understand regional content distribution.</li>
+            <li>Analyzed 36.4% of recent content; recommended expanding regional content, diversifying genres, and including older shows and movies to enhance catalog variety and appeal.</li>
+            <li>Built dashboards and charts highlighting trends in release years, ratings, genres, and top directors, providing actionable insights for content strategy.</li>
+        </ul>
+    </section>
+
+</main>
 
 <script src="script.js"></script>
 </body>

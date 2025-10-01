@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9; /* Soft light background */
+    background-color: #fdfdfd; /* clean white background */
     color: #333;
     margin: 0;
     padding: 0;
@@ -10,12 +10,12 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #ff6f91; /* soft pink accent */
+    background: linear-gradient(90deg, #f78ca0, #f9748f, #fd868c, #fe9a8b); /* soft gradient pinks */
     padding: 15px 30px;
     display: flex;
     justify-content: center;
     gap: 35px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 nav a {
@@ -26,7 +26,8 @@ nav a {
     transition: color 0.3s;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
     color: #ffe6f0;
 }
 
@@ -34,7 +35,7 @@ nav a:hover {
 header {
     text-align: center;
     padding: 80px 20px 40px 20px;
-    background: linear-gradient(to right, #ffe6f0, #fff0f5);
+    background: linear-gradient(to right, #fff0f5, #ffe6eb);
 }
 
 h1 {
@@ -72,21 +73,45 @@ section ul {
 
 /* Resume & Social Buttons */
 .resume-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 25px;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.icon-btn {
-    width: 60px;
-    height: 60px;
-    transition: transform 0.3s, filter 0.3s;
+.resume-buttons p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
 }
 
-.icon-btn:hover {
-    transform: scale(1.2);
-    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2));
+.btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+}
+
+/* Specific Button Colors */
+.btn {
+    background: linear-gradient(to right, #ff758c, #ff7eb3); /* resume soft pink */
+}
+
+.btn.linkedin {
+    background: #0077b5; /* LinkedIn brand */
+}
+
+.btn.github {
+    background: #333; /* GitHub dark */
 }
 
 /* Contact Form */
@@ -96,7 +121,8 @@ form {
     gap: 18px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     padding: 14px;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -104,7 +130,8 @@ form input, form textarea {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-form input:focus, form textarea:focus {
+form input:focus,
+form textarea:focus {
     border-color: #ff6f91;
     box-shadow: 0 0 6px rgba(255,111,145,0.3);
     outline: none;
@@ -112,17 +139,16 @@ form input:focus, form textarea:focus {
 
 form button {
     padding: 14px;
-    background-color: #ff6f91;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: transform 0.3s;
 }
 
 form button:hover {
-    background-color: #ff4d6d;
     transform: translateY(-2px);
 }
 
