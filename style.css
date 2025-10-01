@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fcfbf9; /* soft warm background */
-    color: #2f2f2f; /* dark neutral */
+    background-color: #ffffff; /* clean white background */
+    color: #333;
     margin: 0;
     padding: 0;
     line-height: 1.7;
@@ -10,17 +10,17 @@ body {
 
 /* Navigation */
 nav {
-    background: linear-gradient(90deg, #5d4037, #6d4c41, #8d6e63, #a1887f); /* warm earthy browns */
+    background: linear-gradient(90deg, #ffb347, #ff7e5f); /* orange gradient */
     padding: 15px 30px;
     display: flex;
     justify-content: center;
     gap: 35px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 nav a {
     text-decoration: none;
-    color: #fdfdfd;
+    color: #fff;
     font-weight: 600;
     font-size: 1.1rem;
     transition: color 0.3s;
@@ -28,26 +28,26 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #d7ccc8; /* soft muted beige highlight */
+    color: #fff3e6; /* light warm hover */
 }
 
 /* Header Section */
 header {
     text-align: center;
     padding: 80px 20px 40px 20px;
-    background: linear-gradient(to right, #efebe9, #f5f5f5);
+    background: linear-gradient(to right, #fff7f0, #fff0e6); /* soft warm white-orange */
 }
 
 h1 {
     font-size: 3rem;
-    color: #4e342e; /* deep chocolate brown */
+    color: #ff7e5f; /* bold orange */
     margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #6d4c41; /* softer brown */
+    color: #ff914d; /* lighter orange */
 }
 
 /* Sections */
@@ -93,7 +93,7 @@ section ul {
     transition: all 0.3s ease;
     color: white;
     font-size: 1rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .btn:hover {
@@ -103,7 +103,7 @@ section ul {
 
 /* Specific Button Colors */
 .btn {
-    background: linear-gradient(to right, #795548, #a1887f); /* warm earthy brown gradient */
+    background: linear-gradient(to right, #ffb347, #ff7e5f); /* resume orange gradient */
 }
 
 .btn.linkedin {
@@ -125,21 +125,21 @@ form input,
 form textarea {
     padding: 14px;
     border-radius: 10px;
-    border: 1px solid #bbb;
+    border: 1px solid #ccc;
     font-size: 1rem;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 form input:focus,
 form textarea:focus {
-    border-color: #8d6e63;
-    box-shadow: 0 0 6px rgba(141,110,99,0.3);
+    border-color: #ff914d;
+    box-shadow: 0 0 6px rgba(255,145,77,0.3);
     outline: none;
 }
 
 form button {
     padding: 14px;
-    background: linear-gradient(to right, #6d4c41, #8d6e63);
+    background: linear-gradient(to right, #ffb347, #ff7e5f);
     color: white;
     border: none;
     border-radius: 10px;
