@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fdfdfd; /* clean white background */
-    color: #333;
+    background-color: #fcfbf9; /* soft warm background */
+    color: #2f2f2f; /* dark neutral */
     margin: 0;
     padding: 0;
     line-height: 1.7;
@@ -10,17 +10,17 @@ body {
 
 /* Navigation */
 nav {
-    background: linear-gradient(90deg, #f78ca0, #f9748f, #fd868c, #fe9a8b); /* soft gradient pinks */
+    background: linear-gradient(90deg, #5d4037, #6d4c41, #8d6e63, #a1887f); /* warm earthy browns */
     padding: 15px 30px;
     display: flex;
     justify-content: center;
     gap: 35px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
 }
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #fdfdfd;
     font-weight: 600;
     font-size: 1.1rem;
     transition: color 0.3s;
@@ -28,26 +28,26 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #ffe6f0;
+    color: #d7ccc8; /* soft muted beige highlight */
 }
 
 /* Header Section */
 header {
     text-align: center;
     padding: 80px 20px 40px 20px;
-    background: linear-gradient(to right, #fff0f5, #ffe6eb);
+    background: linear-gradient(to right, #efebe9, #f5f5f5);
 }
 
 h1 {
     font-size: 3rem;
-    color: #ff4d6d;
+    color: #4e342e; /* deep chocolate brown */
     margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #ff6f91;
+    color: #6d4c41; /* softer brown */
 }
 
 /* Sections */
@@ -93,7 +93,7 @@ section ul {
     transition: all 0.3s ease;
     color: white;
     font-size: 1rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .btn:hover {
@@ -103,7 +103,7 @@ section ul {
 
 /* Specific Button Colors */
 .btn {
-    background: linear-gradient(to right, #ff758c, #ff7eb3); /* resume soft pink */
+    background: linear-gradient(to right, #795548, #a1887f); /* warm earthy brown gradient */
 }
 
 .btn.linkedin {
@@ -125,21 +125,21 @@ form input,
 form textarea {
     padding: 14px;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #bbb;
     font-size: 1rem;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 form input:focus,
 form textarea:focus {
-    border-color: #ff6f91;
-    box-shadow: 0 0 6px rgba(255,111,145,0.3);
+    border-color: #8d6e63;
+    box-shadow: 0 0 6px rgba(141,110,99,0.3);
     outline: none;
 }
 
 form button {
     padding: 14px;
-    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    background: linear-gradient(to right, #6d4c41, #8d6e63);
     color: white;
     border: none;
     border-radius: 10px;
